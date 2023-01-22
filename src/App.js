@@ -9,6 +9,7 @@ const App = () => {
   };
 
   const itemsHandler = (e) => {
+    console.log("hello")
     e.preventDefault();
     if(inputList.length > 0) {
     setItems((oldItems) => {
