@@ -17,8 +17,8 @@
 }
 .container {
   /* border:2px solid black; */
-  height: 81vh;
-  width: 500px;
+  height: 85vh;
+  width: 450px;
   background-color: #f4f4f4;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
@@ -96,4 +96,48 @@ ol li {
 }
 .neglect:hover {
   background-color: crimson;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 82vh;
+    width: 350px;
+  }
+  input {
+    font-size: 17px;
+    height: 24px;
+  }
+  ol li {
+    font-size: 16px;
+  }
+  button {
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    height: 60vh;
+    width: 300px;
+  }
+  input {
+    font-size: 16px;
+    height: 23px;
+  }
+  ol li {
+    font-size: 15px;
+  }
+  button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 25px;
+  }
 }

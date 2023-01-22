@@ -7,6 +7,8 @@ const App = () => {
   const inputTextHandler = (e) => {
     setInputList(e.target.value);
   };
+
+  console.log("inputList =", inputList)
   const itemsHandler = (e) => {
     e.preventDefault();
     setItems((oldItems) => {
