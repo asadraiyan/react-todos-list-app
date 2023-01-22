@@ -8,13 +8,14 @@ const App = () => {
     setInputList(e.target.value);
   };
 
-  console.log("inputList =", inputList)
   const itemsHandler = (e) => {
     e.preventDefault();
+    if(inputList.length > 0) {
     setItems((oldItems) => {
       return [...oldItems, inputList];
     });
     setInputList("");
+    }
   };
   const deleteItems = (id) => {
     setItems((oldItems) => {
