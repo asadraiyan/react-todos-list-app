@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 .main-container {
   display: flex;
   height: 100vh;
@@ -15,6 +17,7 @@
   align-items: center;
   background-image: linear-gradient(260deg, #4987b1 0%, #c16ecf 100%);
 }
+
 .container {
   /* border:2px solid black; */
   height: 85vh;
@@ -23,6 +26,7 @@
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
 }
+
 h1 {
   background-color: #8566aa;
   margin-top: 25px;
@@ -30,6 +34,7 @@ h1 {
   padding: 5px 0px 2px 0px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
+
 input {
   font-size: 20px;
   height: 30px;
@@ -41,6 +46,7 @@ input {
   border-bottom: 2px solid #8566aa;
   outline: none;
 }
+
 button {
   width: 35px;
   height: 35px;
@@ -53,14 +59,17 @@ button {
   box-shadow: 5px 5px 15px -5px rgb(0 0 0 / 30%);
   cursor: pointer;
 }
+
 button:hover {
   background-color: #20bf6b;
 }
+
 .list-container {
   margin-top: 30px;
   overflow: auto;
   height: 354px;
 }
+
 ol li {
   list-style: none;
   display: flex;
@@ -70,6 +79,7 @@ ol li {
   text-align: left;
   color: #8566aa;
 }
+
 .todo_style {
   display: flex;
   flex-direction: row;
@@ -78,6 +88,7 @@ ol li {
   margin-top: -8px;
   overflow: auto;
 }
+
 .neglect {
   width: 23px;
   height: 23px;
@@ -94,6 +105,7 @@ ol li {
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .neglect:hover {
   background-color: crimson;
 }
@@ -103,18 +115,22 @@ ol li {
     height: 82vh;
     width: 350px;
   }
+
   input {
     font-size: 17px;
     height: 24px;
   }
+
   ol li {
     font-size: 16px;
   }
+
   button {
     width: 28px;
     height: 28px;
     font-size: 20px;
   }
+
   h1 {
     font-size: 28px;
   }
@@ -125,18 +141,22 @@ ol li {
     height: 75vh;
     width: 300px;
   }
+
   input {
     font-size: 16px;
     height: 23px;
   }
+
   ol li {
     font-size: 15px;
   }
+
   button {
     width: 30px;
     height: 30px;
     font-size: 20px;
   }
+
   h1 {
     font-size: 25px;
   }

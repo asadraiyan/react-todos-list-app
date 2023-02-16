@@ -10,11 +10,11 @@ const App = () => {
 
   const itemsHandler = (e) => {
     e.preventDefault();
-    if(inputList.length > 0) {
-    setItems((oldItems) => {
-      return [...oldItems, inputList];
-    });
-    setInputList("");
+    if (inputList.length > 0) {
+      setItems((oldItems) => {
+        return [...oldItems, inputList];
+      });
+      setInputList("");
     }
   };
   const deleteItems = (id) => {
@@ -37,12 +37,12 @@ const App = () => {
               value={inputList}
               onChange={inputTextHandler}
             />
-            <button onClick={itemsHandler} type= "submit"> + </button>
+            <button onClick={itemsHandler} type="submit"> + </button>
           </form>
 
           <ol className="list-container">
             {/* <li>{inputList}</li> */}
-            {items.map((itemval, index) => {  
+            {items.map((itemval, index) => {
               return (
                 <ToDoList
                   key={index}
