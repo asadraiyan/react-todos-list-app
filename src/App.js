@@ -41,7 +41,6 @@ const App = () => {
           </form>
 
           <ol className="list-container">
-            {/* <li>{inputList}</li> */}
             {items.map((itemval, index) => {
               return (
                 <ToDoList
